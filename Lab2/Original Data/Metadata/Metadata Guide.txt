@@ -1,0 +1,4 @@
+Plik billboard.csv znajdujący się w folderze ../Original Data/ zawiera szczegółowe danych piosenek
+(odpowiednio kolumny: rok, artysta, tytuł piosenki, czas trwania, gatunek muzyki, dokładną datę powstania utworu,
+datę kiedy utwór był na szczycie rankingu) oraz zmienne w czasie dane o ich pozycji w rankingu (kolejne
+tygodnie odpowiadają pozycjom w kolejnych tygodniach).

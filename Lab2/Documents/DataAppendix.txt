@@ -1,0 +1,29 @@
+Poniżej opisane pliki znajdują się w folderze /AnalysisData/
+
+ * SongsData.csv
+Plik ten zawiera szczegółowe dane piosenek. Z oryginalnego pliku zostały zachowane następujące kolumny:
+- Artist - autor danego utworu
+- Track - tytuł piosenki
+- Genre - gatunek muzyczny
+- Time - długość utworu
+Ponadto została dodana kolumna id, która ma na celu ułatwienie identyfikacji piosenek i jego miejsca w rankingu,
+na podstawie kolejnego pliku - RankingData.csv
+
+Liczba zbadanych piosenek wyniosła 317 z 10 gatunków. Najwięcej w zestawieniu znalazło się utworów Jay-Z,
+a najpopularniejszym gatunkiem muzycznym - Rock. Liczba artystów w zestawieniu wyniosła 228.
+Co ciekawe 2 piosenki mają ten sam tytuł.
+
+* RankingData.csv
+Plik ten zawiera zmienne w czasie dane rankingowe piosenek (którą pozycję w rankingu w danym tygodniu zajmowała dana piosenka).
+Kolumny występujące w tabeli to:
+- id - id piosenki, pod którym z tabeli 1 (plik SongsData.csv) możemy odnaleźć szczegółowe informacje (np. tytuł, artysta)
+- date - data, kiedy pozycja w rankingu została odnotowana
+- rank - pozycja w rankingu danej piosenki w danym tygodniu
+
+Na podstawie danych możemy stwierdzić że ranking obejmuje 100 pozycji, ponieważ najlepszą pozycją zajętą przez daną
+piosenke jest 1, a najgorszą 100. Średnią pozycją spośród wszystkich piosenek przez cały okres badania jest pozycja 51.
+Odchylenie standardowe natomiast wyniosło blisko 29%.
+Liczba pozycji w rankingu, jaką udało się odnotować wynosi 5307.
+
+Dodatek do danych został opracowany z wykorzystaniem skryptu znajdującego się w /CommandFiles/DataAppendix.ipynb
+
